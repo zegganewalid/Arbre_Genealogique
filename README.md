@@ -6,4 +6,9 @@ Pour ce projet, nous nous intéresserons à la manipulation d'arbres généalogi
 3. Afficher les (demi) frères et (demi) sœurs d'une personne donnée 4.
 4. Afficher les cousins d'une personne donnée 5.
 5. Donner le lien de parenté entre deux personnes données
-La dernière question constitue la partie ouverte du projet. Il faut trouver un moyen qui permet de préciser de manière systématique le lien qui relie deux personnes
+________________________________________________________________________________________________________________________________________
+Le projet se compose de 3 packages : "model", qui contient les classes nécessaires au fonctionnement du
+programme, "vue", qui regroupe toutes les classes des interfaces graphiques utilisées, et "controler", qui
+héberge les classes chargées de faire le lien entre les classes du modèle et les interfaces graphiques de la
+vue. Chaque bouton de l'interface a sa propre classe qui le gère. Le package 'controler' a pour rôle de
+rendre l'application fonctionnelle et interactive.
